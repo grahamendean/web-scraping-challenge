@@ -10,16 +10,16 @@
     <title>Mission to Mars</title>
 </head>
 
-<body>
+<body class="bg-light">
     <div class="jumbotron text-center">
-        <h1 class="display-3">Mission to Mars</h1>
+        <h1 class="display-3 text-primary">Mission to Mars</h1>
         <hr>
         <h2>{{ mars.recenttitle }}</h2>
         <p class="text-center">{{ mars.recentparapraph }}</p class="text-justify">
         <a href="/scrape" class="btn btn-primary">Scrap New Data</a >
     </div>
 
-    <div class="container">
+    <div class="container bg-light">
         <div class="row mt-4">
             <div class="col-md-6">
                 <img src="{{ mars.featuredimage}}" alt="feature image" class="w-100">
