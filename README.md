@@ -1,7 +1,5 @@
 # Web Scraping Homework - Mission to Mars
 
-Github Pages Link : https://grahamendean.github.io/web-scraping-challenge/
-
 In this assignment, I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
 ## Step 1 - Scraping
